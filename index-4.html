@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Contacts</title>
+		<meta name="format-detection" content="telephone=no" />
+		<link rel="icon" href="images/favicon.ico">
+		<link rel="shortcut icon" href="images/favicon.ico" />
+		<link rel="stylesheet" href="css/form.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link href='http://fonts.googleapis.com/css?family=Economica:700' rel='stylesheet' type='text/css'>
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-migrate-1.1.1.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/jquery.ui.totop.js"></script>
+		<script src="js/superfish.js"></script>
+		<script src="js/TMForm.js"></script>
+		<script src="js/jquery.equalheights.js"></script>
+		<script src="js/jquery.mobilemenu.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/jquery.knob.js"></script>
+        <script src=""></script>
+	
+		<!--Esta linea de codigo contiene la barra de estadode envio-->
+        
+		<script ></script>
+		 <script>
+    $(document).ready(function() {
+      //$(".dial").knob();
+      $('.dial').knob({
+        'min':0,
+        'max':100,
+        'width':150,
+        'height':150,
+        'displayInput':true,
+        'fgColor':"#e74c3c",
+        'release':function(v) {$("p").text(v);},
+        'readOnly':true
+      });
+    });
+  </script>
+
+		</script>
+		<script>
+		$(document).ready(function(){
+			$().UItoTop({ easingType: 'easeOutQuart' });
+		})
+		</script>
+		
+		<!--[if lt IE 8]>
+		<div style=' clear: both; text-align:center; position: relative;'>
+			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+				<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+			</a>
+		</div>
+		<![endif]-->
+		<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<link rel="stylesheet" media="screen" href="css/ie.css">
+		<![endif]-->
+	</head>
+	<body id="top">
+<!--==============================header=================================-->
+		<div class="main">
+			<header>
+				<div class="clear"></div>
+				<div class="container_12">
+					<div class="grid_12">
+						<h1>
+							<a href="index.html">
+								<img src="images/Perubus.logo.png" alt="Your Happy Family">
+							</a>
+						</h1>
+					</div>
+				</div>
+			</header>
+		</div>
+		<div class="menu_block">
+			<div class="container_12">
+				<div class="grid_12">
+					<nav class="horizontal-nav full-width horizontalNav-notprocessed">
+						<ul class="sf-menu">
+							<li><a href="index.html">Inicio</a></li>
+							<li><a href="index-1.html">Nosotros</a></li>
+							<li><a href="index-2.html">Sedes</a></li>
+							<li><a href="index-3.html">Reclamos</a></li>
+							<li class="current"><a href="index-4.html">Monitoreo</a></li>
+						</ul>
+					</nav>
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="main">
+<!--==============================Contenido=================================-->
+			<div class="content"><div class="ic">More Website Templates @ TemplateMonster.com - December 30, 2013!</div>
+				<div class="container_12">
+					<div class="grid_12">
+						<div class="box">
+							<div class="inner maxheight">
+								<h3>Seguimiento del paquete</h3>
+								<div class="map">
+									<figure class="map">
+										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1679.5499844142626!2d-76.14212154528892!3d-13.415717044388321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110168c34dd8cdd%3A0xbdd92dfa05cc3e0d!2sSoyuz!5e0!3m2!1ses-419!2spe!4v1623541729146!5m2!1ses-419!2spe" width="800" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+									</figure>
+									<div class="clear"></div>
+									<div class="grid_4 alpha">
+										<h4>Ubicanos</h4>
+										<address>
+											<dl>
+												<dt>PeruBus<br>
+													Carretera Panamericana,<br>
+													
+												</dt>
+												<dd><span>Telefonos de reclamos:</span>   +1 800 559 6580</dd>
+												<dd><span>Telefono Gneral:</span>   +1 800 603 6035</dd>
+												<dd><span>Telefono para transporte:</span> +1 800 889 9898</dd>
+												<dd><span>E-mail:</span> <strong class="col2"><a href="#" >PeruBUS@gmail.com</a></strong></dd>
+												<dd><span>Instagram:</span> <strong class="col2"><a href="https://www.instagram.com/perubusvip/?hl=es-la" >perubusvip</a></strong></dd>
+											</dl>
+										</address>
+										<p><span class="btn"><a href=" http://www.templatemonster.com/website-templates.php" rel="nofollow">Verificacion:</a></p>
+									
+										<div>
+										Para caulquier duda vease el apartado de reclamos  </p></a></span>  
+									</div>
+									</div>
+									<div class="fright">
+										<h4>Registro del paquete</h4>
+										<form id="form">
+											<div class="success_wrapper">
+												<div class="success-message">Contact form submitted</div>
+											</div>
+											<label class="name">
+												<input type="text" placeholder="Nombre del remitente:" data-constraints="@Required @JustLetters" />
+												<span class="empty-message">*.</span>
+												<span class="error-message">*.</span>
+											</label>
+											<label class="email">
+												<input type="text" placeholder="Codigo del paquete" data-constraints="@Required @Length(min=8,max=9)" />
+												<span class="empty-message">El codigo es incorrecto.</span>
+												<span class="error-message">El codigo es invalido</span>
+											</label>
+											<label class="email">
+												<input type="text" placeholder="E-mail:" data-constraints="@Required @JustNumbers(min=9,max=12)"/>
+												<span class="empty-message">incorrecto.</span>
+												<span class="error-message"> no verificado.</span>
+											</label>
+											<br>
+											<div>
+												<div class="clear"></div>
+												<div class="btns">
+													<a href="#" data-type="reset" class="btn">Deshacer</a>
+													<a href="index-6.html"  class="btn">Registrar</a>
+												</div>
+											</div>
+											</br>
+											<div class="center" class="container">
+												<h4 class="left">Progreso de llegada  </h4>
+												<input  type="text" value="0" class="dial">
+												
+											  </div>
+											
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+<!--==============================Pie de pagina=================================-->
+<footer>
+	<div class="hor bg3"></div>
+	<div class="container_12">
+		<div class="grid_12">
+			<div class="socials">
+				<a href="https://web.facebook.com/PeruBus/?_rdc=1&_rdr"></a>
+				<a href="#"></a>
+				<a href="#"></a>
+				<div class="clear"></div>
+			</div>
+			<div class="copy">
+				&copy; <span id="copyright-year"></span> | <a href="#">Politica de privacidad</a> <br>
+				Sitio Web diseñado por <a href="" rel="nofollow">Grupo 3 de Creatividad Digital</a>
+			</div>
+		</div>
+	</div>
+</footer>
+</div>
+</body>
+</html>
